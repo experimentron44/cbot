@@ -4,3 +4,5 @@ pypdf
 streamlit
 llama-index
 llama-index-llms-groq
+python-dotenv
+gunicorn

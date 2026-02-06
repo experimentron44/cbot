@@ -2,11 +2,14 @@ from flask import Flask, request, jsonify, send_from_directory
 import os
 import requests
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__, static_folder='.')
 
 # Configuration
-OPENROUTER_API_KEY = "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" # Using Groq Key variable name reuse for simplicity, though cleaner to rename.
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") # Securely load from env
 SITE_URL = "https://api.groq.com/openai/v1/chat/completions"
 RESUME_FILE = "resume_content.txt"
 
