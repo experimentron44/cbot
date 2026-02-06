@@ -1,0 +1,6 @@
+flask
+requests
+pypdf
+streamlit
+llama-index
+llama-index-llms-groq

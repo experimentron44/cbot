@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bloomberg - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+        <!-- SIDEBAR: Profile, Skills, Education -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="google-logo">
+                    <span class="g-blue">C</span><span class="g-red">h</span><span class="g-yellow">a</span><span
+                        class="g-blue">r</span><span class="g-green">l</span><span class="g-red">e</span><span
+                        class="g-blue">s</span>
+                </div>
+                <div style="font-size: 1.1rem; font-weight: 500;">Bloomberg</div>
+                <div style="color: #5f6368; font-size: 0.9rem;">Global Startup Consultant</div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-label">Contact</div>
+                <a href="mailto:charlesbloomberg@gmail.com" class="contact-item">charlesbloomberg@gmail.com</a>
+                <span class="contact-item">(621) 799-5548</span>
+                <span class="contact-item">Seoul, South Korea</span>
+                <a href="https://linkedin.com/in/cbloomberg" class="contact-item">in/cbloomberg</a>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-label">Education</div>
+                <div class="education-item">
+                    <div class="degree">B.S. Economics & Math</div>
+                    <div class="school">University of Wisconsin - Madison</div>
+                    <div style="font-size: 0.8rem; color: #5f6368;">Powers-Knapp Scholar • 2014</div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-label">Skills</div>
+                <div class="skills-container">
+                    <span class="chip">Speaking</span>
+                    <span class="chip">Fundraising</span>
+                    <span class="chip">Product Dev</span>
+                    <span class="chip">HTML/CSS</span>
+                    <span class="chip">Webflow</span>
+                    <span class="chip">Design</span>
+                    <span class="chip">Growth</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT: Summary, Experience, Projects -->
+        <main class="main-content">
+            <!-- Top Card: Summary -->
+            <div class="summary-card">
+                <h2 class="section-title">Professional Summary</h2>
+                <p style="margin: 0;">Passion for building inspiring companies through industry-leading tech, design,
+                    and execution. An experienced early-stage global executive with an economics degree from the
+                    University of Wisconsin - Madison. Looking to join as a global startup consultant.</p>
+            </div>
+
+            <!-- Bottom Card: Scrollable Experience -->
+            <div class="experience-container">
+                <h2 class="section-title">Experience & Projects</h2>
+                <div class="scroll-area">
+
+                    <div class="experience-item">
+                        <div class="role-header">
+                            <span class="company">CEO & Founder - Rezi</span>
+                            <span class="meta">Aug 2015 — Present | Seoul</span>
+                        </div>
+                        <ul>
+                            <li>Built Rezi - the most loved resume software in the world, trusted by over 4,124,000
+                                users.</li>
+                            <li>Founded Rezi at 22; globalized into South Korea, becoming the leading English resume
+                                company and securing $650k+ in investment.</li>
+                            <li>Engineered partnership strategies acquiring 50,000 users in 1 month with $0 marketing
+                                spend.</li>
+                            <li>Developed 3 new core departments: e-learning, global recruiting, and data-vending.</li>
+                            <li>Metrics: 16 FTEs; 4.1M+ users; $38M valuation.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="role-header">
+                            <span class="company">Web Developer - Kaplan</span>
+                            <span class="meta">May 2015 — Nov 2015 | WI</span>
+                        </div>
+                        <ul>
+                            <li>Redesigned kaplancleantech.com using Expression Engine. Optimized landing pages for lead
+                                generation via A/B testing.</li>
+                            <li>Led SEO strategies for a 500k budget. Prepared ranking reports for management.</li>
+                            <li>Executed Google Analytics campaigns and email re-marketing using Salesforce, SQL, and
+                                Python.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="role-header">
+                            <span class="company">Marketing Analyst - Kaplan</span>
+                            <span class="meta">Nov 2014 — May 2015 | WI</span>
+                        </div>
+                        <ul>
+                            <li>Implemented Tableau dashboards for 6 KPIs. Improved strategies to maximize ROI (e.g.,
+                                Facebook retargeting).</li>
+                            <li>Analyzed 100+ customer feedbacks using SurveyMonkey to suggest website improvements.
+                            </li>
+                            <li>Managed mobile PPC strategy using Google AdWords Editor.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="role-header">
+                            <span class="company">Startup Architect Consultant</span>
+                            <span class="meta">Project</span>
+                        </div>
+                        <ul>
+                            <li>Worked with 3 global founders to bring well-executed MVPs to market through no-code and
+                                "ship-first" methodologies.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="role-header">
+                            <span class="company">Web Dev Intern - WI Public TV</span>
+                            <span class="meta">Jun 2012 — Sep 2012</span>
+                        </div>
+                        <ul>
+                            <li>Integrated analytics to track promo behavior, generating over $235k in sales.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- CHATBOT WIDGET -->
+    <button id="chat-toggle-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+    </button>
+
+    <div id="chat-widget" class="hidden">
+        <div class="chat-header">
+            <span>Ask Charles' AI</span>
+            <button id="chat-close-btn">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <div class="message bot">
+                Hi! I'm Charles' AI assistant. Ask me anything about his experience or skills!
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a question...">
+            <button id="chat-send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
